@@ -1,14 +1,27 @@
 .Blogtitle {
-    color: rgb(168, 163, 163);
+    color: rgb(107, 100, 100);
     border-bottom-color: rgb(202, 199, 199) !important;
     font-size: small;
 
 }
 
+.blogbutton {
+    background-color: hsl(170deg 25% 95%);
+    color: #57adce;
+    border: 2px solid #57adce;
+    font-size: small;
+    font-weight: 700;
+    min-width: 50px;
+    min-height: 30px;
+    border-radius: 3px;
+}
+
+
 .data-grid td {
     max-width: 100px;
     font-size: small;
-    border-color: rgb(202, 199, 199);
+    /* border-bottom-color: transparent; */
+    border-bottom-width: 0px;
     font-weight: 600;
     color: #57adce;
 }
@@ -18,7 +31,7 @@
 }
 
 .data-grid td:nth-last-child(3) {
-    color: gray;
+    color: #717a7b;
 }
 
 .data-grid td:nth-child(2) {
@@ -27,4 +40,21 @@
 
 .data-grid input {
     font-size:medium
+}
+
+@media screen and (max-width:900px) {
+    .inputflex {
+        display: flex;
+        justify-content:flex-start !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .blogrow3 {
+        display:initial !important;
+    }
+    .blogrow3 > div {
+        margin: 10px;
+        margin-left: 0;
+    }
 }
