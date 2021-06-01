@@ -42,6 +42,12 @@
     font-size:medium
 }
 
+.dropbutton .btn-primary{
+    background-color: #fff !important;
+    border: 1px solid #6c757d!important;
+    color:#212529 !important;
+}
+
 @media screen and (max-width:900px) {
     .inputflex {
         display: flex;
@@ -49,7 +55,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .blogrow3 {
         display:initial !important;
     }

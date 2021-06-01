@@ -6,25 +6,30 @@ export const Data = [
     Categories:"uncategorized",
     Tags:"--",
     Published:'Published',
-    Date:'2021/01/11 at 11:27'
+    Date:'2021/01/11 at 11:27',
+    select:false,
 },
 {
     id:2,
     Title:"10 Best way to learn coding for the 21st century Kids",
     Author:"sonveer.singh",
-    Categories:"uncategorized",
+    Categories:"category1",
     Tags:"--",
     Published:'Published',
-    Date:'2020/02/12 at 01:22'
+    Date:'2020/02/12 at 01:22',
+    select:false,
+
 },
 {
     id:3,
     Title:"Mind maps idea for kids - The Effect On Early Education",
-    Author:"sonveer.singh",
+    Author:"xyz",
     Categories:"uncategorized",
     Tags:"--",
     Published:'Published',
-    Date:'2021/01/11 at 11:27'
+    Date:'2021/01/11 at 11:27',
+    select:false,
+
 },
 {
     id:4,
@@ -33,16 +38,20 @@ export const Data = [
     Categories:"uncategorized",
     Tags:"--",
     Published:'Published',
-    Date:'2020/02/12 at 01:22'
+    Date:'2020/02/12 at 01:22',
+    select:false,
+
 },
 {
     id:5,
     Title:"5 reason why coding is necessary for kids in 21st century",
-    Author:"sonveer.singh",
-    Categories:"uncategorized",
+    Author:"xyz",
+    Categories:"category1",
     Tags:"--",
     Published:'Published',
-    Date:'2020/02/12 at 01:22'
+    Date:'2020/02/12 at 01:22',
+    select:false,
+
 }
 ]
 
